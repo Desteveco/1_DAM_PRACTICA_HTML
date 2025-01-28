@@ -1,14 +1,47 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto - La Tienda de la Abuela</title>
+  </head>
 
-<head>
-    <title>Silk Road</title>
-</head>
-
-<body>
+  <body>
     <nav>
-        <a href="../index.html">Home</a>
+      <a href="../index.html">Home</a>
+        <div style="align-self: right;">
+            <a style="align-self: right;" href="../html/contacto.html">¿Quieres vender con nosotros?</a>
+        </div>
     </nav>
-    
-</body>
-<body>
+    <hr />
+    <div id="mensajeCNI">
+      <div id="imagenCNI">
+        <img align="left" src="../assets/CNIescudoespaña2.svg.png" alt="vallecas"/>
+      </div>
+      <br />
+
+      <p>¡Te hemos pillado, pillastre!</p>
+      <p>Si no quieres que te caiga un multón, páganos con tu información</p>
+      <br />
+    </div>
+    <div id="formularioCNI">
+      <br />
+      <form action="/base_datos_cni.php">
+        <label for="nombreform">Nombre:</label><br />
+        <input type="text" id="nombreform" /><br /><br />
+        <label for="apellidosform">Apellidos:</label><br />
+        <input type="text" id="apellidosform" /><br /><br />
+        <label for="textoform">¿Qué querías vender en esta página?:</label
+        ><br />
+        <textarea id="textoform" rows="4" cols="50"> </textarea> <br />
+
+        <input type="radio" id="legalform" name="legalidad" value="Legal" />
+        <label for="vehicle1"> ¡Mi mercancía es legal, lo juro!</label><br />
+        <input type="radio" id="ilegalform" name="legalidad" value="Ilegal" />
+        <label for="vehicle2">
+          Me habéis pillado con las manos en la masa...</label
+        ><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
