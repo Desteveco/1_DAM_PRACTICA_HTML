@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    background-color: #f8f1e4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #8b0000;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #d4a373;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablas de productos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: white
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d4a373;
+    color: white;
+    text-align: center;
+}
+
+/* Imágenes de productos */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+/* Selectores de cantidad */
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8b0000;
+    color: white;
+}
